@@ -1,4 +1,4 @@
-#!/bin/bash -ilex
+#!/bin/bash
 
 pm2 restart npm -- run serve
 
