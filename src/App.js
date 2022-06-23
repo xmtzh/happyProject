@@ -10,7 +10,7 @@ function App() {
           希望能做一个happy-programmer——ZH
         </p>
         <p>
-          我感觉我现在已经不快乐了......
+          我感觉我现在已经不快乐了...
         </p>
       </header>
     </div>
