@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pm2 restart "npm run serve" --name happy
+pm2 restart npm -- run serve
 
 echo 'deploy success'
