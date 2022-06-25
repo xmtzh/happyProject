@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+import moment from 'moment';
 import './App.css';
+import {imgs, text} from './const'
+
+const index = moment().day();
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          希望能做一个happy-programmer——ZH
-        </p>
-        <p>
-          下班请注意，下班请注意！！！今天这个x班就上到这里了，电脑一关，一天工资到手！
+        <img src={imgs[index]} className="App-logo" alt="logo" />
+        <p className='App-text'>
+          {text[index]} ——ZH
         </p>
       </header>
     </div>
