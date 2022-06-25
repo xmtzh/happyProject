@@ -1,11 +1,12 @@
 
+
 export const imgs = {
-  1: 'https://inews.gtimg.com/newsapp_bt/0/14660524628/641',
+  1: './imgs/1.webp',
   2: 'https://inews.gtimg.com/newsapp_bt/0/14660524629/641',
   3: 'https://inews.gtimg.com/newsapp_bt/0/14660524630/641',
   4: 'https://inews.gtimg.com/newsapp_bt/0/14660524683/641',
   5: 'https://inews.gtimg.com/newsapp_bt/0/14660524684/641',
-  6: 'https://inews.gtimg.com/newsapp_bt/0/14660524685/641',
+  6: './imgs/6.png',
   0: 'https://inews.gtimg.com/newsapp_bt/0/14660524753/641'
 };
 export const text = {
